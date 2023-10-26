@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "BRSonoma-Medium";
+  src: url(../fonts/BRSonoma-Medium.ttf);
+}
+
+@font-face {
+  font-family: "BRSonoma-Semibold";
+  src: url(../fonts/BRSonoma-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "BRSonoma-Bold";
+  src: url(../fonts/BRSonoma-Bold.ttf);
+}
+
+@font-face {
+  font-family: "BRSonoma-Regular";
+  src: url(../fonts/BRSonoma-Regular.ttf);
+}
+
+@font-face {
+  font-family: "BRSonoma-Light";
+  src: url(../fonts/BRSonoma-Light.ttf);
+}
+
+* {
+  font-family: "BRSonoma-Regular";
+}
+
+.app-font-regular {
+  font-family: "BRSonoma-Regular";
+}
+
+.app-font-medium {
+  font-family: "BRSonoma-Medium";
+}
+
+.app-font-semibold {
+  font-family: "BRSonoma-Semibold";
+}
+
+.app-font-bold {
+  font-family: "BRSonoma-Bold";
+}
+
+.app-font-light {
+  font-family: "BRSonoma-Light";
+}
